@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #333;
+}
+*,
+*::before,
+*:after{
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+} 
+/*Container Заголовок*/
+.container{
+    width: 95%;
+    max-width: 2125px;
+    margin: 0 auto;
+    
+}
+/*Intro Начальная страница*/
+.intro{
+    width: 100%;
+    height: 100vh;
+    background: url(".") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+@import "./blocks/*.scss";
+body{
+    background-image:url(./../img/1.png);
+    background-size: cover;
+}

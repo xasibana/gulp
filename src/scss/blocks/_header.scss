@@ -1,0 +1,66 @@
+/* Стиль шапки */
+.header {
+    width: 85%;
+    padding-top: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header__iner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_logo {
+    justify-content: space-between;
+    font-size: 30px;
+    font-weight: 700;
+    color: #000;
+}
+
+/* Навигация */
+.nav {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.nav__link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 19px;
+    position: relative;
+    color: #050505;
+    text-decoration: none;
+    transition: color .4s linear;
+}
+
+.nav__link:after {
+    content: "";
+    display: block;
+    width: 90%;
+    height: 3px;
+    background-color: #e933e0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+}
+
+.nav__link:hover {
+    color: #e933e0;
+}
+
+.nav__link:hover:after {
+    opacity: 1;
+}
+
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px 15px;
+    border: 2px solid #050505;
+}
